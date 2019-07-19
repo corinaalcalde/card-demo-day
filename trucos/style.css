@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    width: 100%;
+}
+header {
+    width: 1200px;
+    height: 230px;
+    /* background-color: red; */
+    margin: 100px auto;
+}
+.contenedor {
+    width: 200px;
+    height: 230px;
+    float: left;
+    transition: .4s;
+}
+#uno {
+    background-color: rgb(208, 101, 3);
+}
+#dos {
+    background-color: rgb(233, 147, 26);
+}
+#tres {
+    background-color: rgb(22, 145, 190);
+}
+#cuatro {
+    background-color: rgb(22, 107, 162);
+}
+#cinco {
+    background-color: rgb(22, 57, 71)
+}
+#seis {
+    background-color: rgb(21, 40, 54);
+}
+
+.icon {
+    display: block;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 40px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    transition: box-shadow .4s;
+}
+.texto {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 15px;
+    opacity: .6;
+    transition: padding-top 4s;
+}
+.contenedor:hover {
+    height: 250px;
+}
+.contenedor:hover .texto {
+    padding-top: 30px;
+    opacity: 1;
+}
+.contenedor:hover .icon {
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.6);
+    
+}
